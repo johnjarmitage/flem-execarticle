@@ -1,0 +1,34 @@
+name: flem-execarticle
+channels:
+  - conda-forge
+  - defaults
+  - pyviz
+dependencies:
+  # flem requires
+  # need to be specific for mshr and fenics
+  - fenics=2019.1.0=py37_1
+  - mshr=2019.1.0=py37h7596e34_1000
+  - gdal
+  - peakutils
+  - matplotlib
+  - scipy
+  # notebook requires
+  - voila
+  - vtk
+  - pyvista
+  - pyqt
+  - ipywidgets
+  - itkwidgets
+  - bokeh
+  - pyviz_comms
+  - panel
+  - nodejs
+  - pandas
+  - geopandas
+  - pip
+  - pip:
+      # flem requires
+      - flem
+      - elevation
+
+prefix: /srv/conda
