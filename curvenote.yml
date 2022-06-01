@@ -3,7 +3,6 @@ site:
   title: EGU'19
   domains:
     - jarmitage-egu19.curve.space
-    - stevejpurves.curve.space
   logo: public/logo.svg
   logoText: flem-execarticle
   nav: []
