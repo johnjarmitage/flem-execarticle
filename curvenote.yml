@@ -1,0 +1,35 @@
+version: 1
+site:
+  title: EGU'19
+  domains:
+    - jarmitage-egu19.curve.space
+    - stevejpurves.curve.space
+  logo: public/logo.svg
+  logoText: flem-execarticle
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://docs.curvenote.com/web
+  projects:
+    - path: .
+      slug: flem-execarticle
+  twitter: stevejpurves
+  frontmatter:
+    authors:
+      - name: John Armitage
+        orcid: 0000-0003-2806-8181
+        corresponding: true
+        email: john-joseph.armitage@ifpen.fr
+        affiliations:
+          - IFP Energies Nouvelles
+    subject: Presentation
+    venue:
+      title: EGU19
+      url: https://www.egu2019.eu/
+    open_access: true
+    license:
+      content: CC-BY-4.0
+      code: MIT
+    github: johnjarmitage/flem-execarticle
+project:
+  title: flem-execarticle
